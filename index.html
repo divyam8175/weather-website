@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="main"> 
+        <div class="main1" id="main1">
+            <h1>Wheather App</h1>
+            <div class="find" id="find">
+                <input type="text" id="search" placeholder="Enter City Name">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div id="weatherinfo" class="hidden">
+                <h2 id="cityname"></h2>
+                <p id="temparature"></p>
+                <p id="description"></p>
+                <p id="icon"></p>
+            </div>
+            <p id="error-message" class="hidden"> city not found.Please try agin</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
